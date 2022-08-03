@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body {
+  font-family: 'Verdana',sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color:#333;
+ }
+ /* style phan dau*/
+ .container {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  background:white;
+  color: black;
+  height: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+.navbar .logo {
+  font-size: x-large;/* size cuc lon */
+}
+.navbar a {
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Sofia',sans-serif;
+  text-shadow: 3px 3px 3px #ababab; /*
+}
+
+.navbar a:hover {
+  color:red;
+}
+.navbar .container {
+   display: flex;/* CHUYEN THANH HANG NGANG*/
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+ 
